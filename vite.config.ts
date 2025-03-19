@@ -9,6 +9,12 @@ export default defineConfig({
       input: {
         index: 'index.html',
         hello: 'hello.html',
+        counter: 'counter.html',
+        counter2: 'counter2.html',
+        sayhello: 'sayHello.html',
+        globalcounter: 'globalcounter.html',
+        autocounter: 'autocounter.html',
+        todo: 'todo.html',
       }
     }
   }

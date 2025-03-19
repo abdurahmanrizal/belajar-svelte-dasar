@@ -1,6 +1,7 @@
 <script lang="ts">
+  import Logo from "./Logo.svelte"
   const name = 'Svelte';
-  const src = 'https://www.programmerzamannow.com/img/pzn.png'
+  const content = `<p>Hello World</p>`;
 </script>
 
 <style>
@@ -10,4 +11,5 @@
 </style>
 
 <h1>Hello, {name.toUpperCase()}!</h1>
-<img {src} alt="Programmer Zaman Now" />
+{@html content}
+<Logo />
