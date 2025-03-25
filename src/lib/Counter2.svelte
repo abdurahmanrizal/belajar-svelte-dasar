@@ -39,9 +39,18 @@
   })
 </script>
 
-<h1>{count.join(" + ")} = {total}</h1>
+<h1 class={total % 2 === 0 ? 'red' : 'blue'}>{count.join(" + ")} = {total}</h1>
 
 <div style="display: flex; gap: 3rem;">
   <button onclick={increment}>Increment</button>
   <button onclick={reset}>Reset</button>
 </div>
+
+<style>
+  .red {
+  color: red;
+ }
+ .blue {
+  color: blue;
+ }
+</style>

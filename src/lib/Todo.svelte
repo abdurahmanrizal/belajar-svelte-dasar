@@ -2,7 +2,8 @@
   export interface TodoType {
     id: number | string
     name: string
-    done: boolean
+    done: boolean,
+    editable: boolean
   }
   const {id, name, done}: TodoType = $props()
 </script>

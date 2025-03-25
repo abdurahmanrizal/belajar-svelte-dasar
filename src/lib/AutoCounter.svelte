@@ -13,5 +13,5 @@
   })
 </script>
 
-<h1>Count {count}</h1>
+<h1 style:color="red">Count {count}</h1>
 <button onclick={increment}>Increment interval: {interval} ms</button>

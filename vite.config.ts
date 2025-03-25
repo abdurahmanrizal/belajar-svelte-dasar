@@ -15,6 +15,12 @@ export default defineConfig({
         globalcounter: 'globalcounter.html',
         autocounter: 'autocounter.html',
         todo: 'todo.html',
+        time: 'time.html',
+        box: 'box.html',
+        store_counter: 'store_counter.html',
+        blog: 'blog.html',
+        contextcounter: 'context_counter.html',
+        mouse: 'mouse.html',
       }
     }
   }
